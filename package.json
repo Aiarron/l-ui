@@ -3,12 +3,18 @@
   "private": false,
   "version": "0.0.1",
   "type": "module",
+  "main": "./dist/lib/index.js",
+  "module": "./dist/es/index.js",
   "files": [
     "dist",
     "package.json"
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aiarron/l-ui.git"
   },
   "scripts": {
     "dev": "vite --open",
